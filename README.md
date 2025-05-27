@@ -18,6 +18,65 @@ my-react-app
 └── README.md             # Project documentation
 ```
 
+Documentação das Decisões
+1. Componentização Avançada
+
+    Separei em componentes lógicos e reutilizáveis
+
+    Cada componente tem uma única responsabilidade
+
+    Uso de props para customização
+
+2. Gerenciamento de Estado
+
+    Context API para o carrinho de compras
+
+    Estado local para formulários e tabs
+
+    Otimização de rerenders com memoização
+
+3. Estilização
+
+    CSS modularizado por componente
+
+    Variáveis CSS para consistência
+
+    Media queries para responsividade
+
+    Transições e hover effects para melhor UX
+
+4. Acessibilidade
+
+    HTML semântico
+
+    ARIA attributes onde necessário
+
+    Foco em contraste de cores
+
+    Labels adequados para formulários
+
+5. Performance
+
+    Lazy loading de imagens
+
+    Importação dinâmica de componentes pesados
+
+    Uso de React.memo para otimização
+
+    Code splitting com React Router
+
+6. Boas Práticas
+
+    Nomenclatura consistente
+
+    Componentes puros quando possível
+
+    Prop-types para validação (não mostrado no código)
+
+    Tratamento de erros em chamadas assíncronas
+
+Este complemento completa toda a estrutura do projeto com todos os componentes e páginas necessárias, seguindo as melhores práticas de desenvolvimento com React e criando uma aplicação web dinâmica e responsiva.
+
 ## Getting Started
 
 To get started with this project, follow these steps:
